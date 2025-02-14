@@ -20,11 +20,29 @@ pip install plotly
 ## Dataset
 The model uses the Pima Indians Diabetes Dataset, which contains medical data of patients. The dataset includes features such as:
 Pregnancies
+
 Glucose Level
+
 Blood Pressure
+
 Skin Thickness
+
 Insulin Level
+
 BMI
+
 Diabetes Pedigree Function (DPF)
+
 Age
+
 Outcome (0 = Non-Diabetic, 1 = Diabetic)
+
+## Usage
+1.Clone the repository: git clone https://github.com/yourusername/Diabeautify.git
+cd Diabeautify
+
+2.Run the Streamlit app: streamlit run app.py
+
+3.Use the sidebar sliders to enter your health parameters.
+
+4.View the prediction results and visualizations.
